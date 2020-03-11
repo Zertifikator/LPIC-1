@@ -43,9 +43,9 @@ Der LPIC-1 Schüler sollte sich im Idealfall auf allen Distributionen zu Hause f
 
 | Init-System | Distribution |
 |--|--|
-| init    | |
+| init    | Devuan |
 | upstart | |
-| systemd | |
+| systemd | Praktisch alle aktuellen Distributionen |
 
 #### Bootmananger
 
