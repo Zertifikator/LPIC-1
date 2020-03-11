@@ -43,8 +43,8 @@ Der LPIC-1 Schüler sollte sich im Idealfall auf allen Distributionen zu Hause f
 
 | Init-System | Distribution |
 |--|--|
-| init    | Devuan |
-| upstart | |
+| SysVinit | Devuan |
+| upstart | Ubuntu 12.04.5 |
 | systemd | Praktisch alle aktuellen Distributionen |
 
 #### Bootmananger
