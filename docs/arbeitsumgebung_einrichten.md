@@ -42,9 +42,16 @@ Der LPIC-1 Schüler sollte sich im Idealfall auf allen Distributionen zu Hause f
 #### Init-System
 
 | Init-System | Distribution |
+|--|--|
 | init    | |
+| upstart | |
 | systemd | |
 
 #### Bootmananger
+
+| Bootmanager | Distribution |
+|--|--|
+| GRUB 0.97 | Ubuntu 18.04.3 Mini mit GRUB2 Downgrade |
+| GRUB 2 | Praktisch alle aktuellen Distributionen |
 
 #### Desktop-Umgebung
