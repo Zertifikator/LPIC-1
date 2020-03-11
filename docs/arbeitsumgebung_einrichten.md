@@ -26,7 +26,7 @@ Die wichtigsten zwei aktuell angewandten Techniken sind die Virtualisierung mit 
 
 Der LPIC-1 Schüler sollte sich im Idealfall auf allen Distributionen zu Hause fühlen. Setze ihn an einen Debian-Rechner oder an einen SuSE-Rechner - er wird immer das richtige tun ;) Doch welche Distributionen soll er installieren? - es gibt doch tausende! Außerdem ist es wohl eher kontraproduktiv, mehrere Distributionen eines Haupstranges zu installieren, wenn das für die praktische Arbeit keinen praktischen Nutzen mit sich bringt. Eine grundlegende Frage muss für die richtige Auswahl vor der Installation aller Distributionen beantwortet werden: Welche (minimale) Auswahl deckt alle Themen des LPIC-1 ab?
 
-### Themenfelder und entsprechende Distributionen
+### Themenfeld des LPIC-1 und entsprechende Distributionen
 
 #### Paketverwaltung
 
@@ -44,3 +44,7 @@ Der LPIC-1 Schüler sollte sich im Idealfall auf allen Distributionen zu Hause f
 | Init-System | Distribution |
 | init    | |
 | systemd | |
+
+#### Bootmananger
+
+#### Desktop-Umgebung
