@@ -1,1 +1,1 @@
-# lpic-1
+# LPIC-1: Linux Administrator
