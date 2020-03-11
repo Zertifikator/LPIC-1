@@ -21,3 +21,26 @@ Natürlich können auch mehrere Distributionen auf einem Rechner koexistieren. H
 Betrachten wir die dritte Möglichkeit, die Virtualisierung des Betriebssystems.
 
 Die wichtigsten zwei aktuell angewandten Techniken sind die Virtualisierung mit Hypervisoren und mit Virtualisungskontainern (bspw. Docker). Beide bieten vorinstallierte Images von aktuellen Distributionen - das dürfte nicht das Entscheidungskriterium sein. Viel wichtiger ist, wie oben schon angedeutet, das der Lernende immer wieder schreibend auf das Bootsystem zugreifen muss und damit für den praktischen Teil eigentlich nur die Virtualisierung durch einen Hypervisor angeraten werden kann.
+
+## Distributionsauswahl
+
+Der LPIC-1 Schüler sollte sich im Idealfall auf allen Distributionen zu Hause fühlen. Setze ihn an einen Debian-Rechner oder an einen SuSE-Rechner - er wird immer das richtige tun ;) Doch welche Distributionen soll er installieren? - es gibt doch tausende! Außerdem ist es wohl eher kontraproduktiv, mehrere Distributionen eines Haupstranges zu installieren, wenn das für die praktische Arbeit keinen praktischen Nutzen mit sich bringt. Eine grundlegende Frage muss für die richtige Auswahl vor der Installation aller Distributionen beantwortet werden: Welche (minimale) Auswahl deckt alle Themen des LPIC-1 ab?
+
+### Themenfelder und entsprechende Distributionen
+
+#### Paketverwaltung
+
+| Paketverwaltungstools | Distribution |
+|--|--|
+| rpm | openSuSE |
+| zypper | openSuSE |
+| dpkg | Debian |
+| apt | Debian |
+| aptitude | Debian |
+| pacman | Arch |
+
+#### Init-System
+
+| Init-System | Distribution |
+| init    | |
+| systemd | |
