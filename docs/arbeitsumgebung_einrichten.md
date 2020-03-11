@@ -32,20 +32,20 @@ Der LPIC-1 Schüler sollte sich im Idealfall auf allen Distributionen zu Hause f
 
 | Paketverwaltungstools | Distribution |
 |--|--|
-| rpm | openSuSE |
-| zypper | openSuSE |
-| dpkg | Debian |
-| apt | Debian |
+| rpm      | openSuSE |
+| zypper   | openSuSE |
+| dpkg     | Debian |
+| apt      | Debian |
 | aptitude | Debian |
-| pacman | Arch |
+| pacman   | Arch |
 
 #### Init-System
 
 | Init-System | Distribution |
 |--|--|
 | SysVinit | Devuan |
-| upstart | Ubuntu 12.04.5 |
-| systemd | Praktisch alle aktuellen Distributionen |
+| upstart  | Ubuntu 12.04.5 |
+| systemd  | Praktisch alle aktuellen Distributionen |
 
 #### Bootmananger
 
@@ -55,3 +55,5 @@ Der LPIC-1 Schüler sollte sich im Idealfall auf allen Distributionen zu Hause f
 | GRUB 2 | Praktisch alle aktuellen Distributionen |
 
 #### Desktop-Umgebung
+
+#### modprobe alt???
