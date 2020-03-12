@@ -47,7 +47,7 @@ Die folgenden Tabellen sind soweit ausgedünnt, dass in der Spalte _Distribution
 #### Bootmananger
 | Bootmanager | Distribution |
 |:--|:--|
-| GRUB 0.97 | Ubuntu 18.04.3 mit GRUB2 Downgrade auf 0.97 |
+| GRUB 0.97 | Fedora 15 |
 | GRUB 2 | Praktisch alle aktuellen Distributionen |
 
 #### Komponenten grafikbasierter Desktops
@@ -62,10 +62,24 @@ Die folgenden Tabellen sind soweit ausgedünnt, dass in der Spalte _Distribution
 #### Kernel-Module verwalten
 | Paket | Distribution |
 |:--|:--|
-| modutils          | Bis einschließlich Ubuntu 5.04 |
-| module-init-tools | Ubuntu 10.04.4 |
+| module-init-tools | Bis einschließlich Ubuntu 10.04.4 |
 | kmod              | Praktisch alle aktuellen Distributionen |
 
 * https://github.com/vadmium/module-init-tools
 * https://github.com/lucasdemarchi/kmod
 
+### Zusammenfassung
+Nach logischer Verknüpfung aller relevanten Prüfungsthemen über die verfügbaren Distributionen _genügen_ folgende Distributionen für die praktische Arbeit:
+
+* aktuelles RHEL
+* aktuelles openSuSE
+* aktuelles Fedora (Wayland)
+* aktuelles Devuan
+* aktuelles Ubuntu (Gnome)
+* aktuelles Kubuntu (KDE)
+* aktuelles Xubuntu (XFCE)
+* Ubuntu 12.04.5 (upstart)
+* Ubuntu 10.04.4 (module-init-tools)
+* Fedora 15 (legacy GRUB)
+
+Die Distributionen für die Themenfelder Wayland, Gnome, KDE und XFCE sollten in der Desktopversion installiert werden. Die übrigen können in einer Minimal- bzw. Serverinstallation vorliegen werden.
