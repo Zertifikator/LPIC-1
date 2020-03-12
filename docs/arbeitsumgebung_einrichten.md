@@ -71,15 +71,15 @@ Die folgenden Tabellen sind soweit ausgedünnt, dass in der Spalte _Distribution
 ### Zusammenfassung
 Nach logischer Verknüpfung aller relevanten Prüfungsthemen über die verfügbaren Distributionen _genügen_ folgende Distributionen für die praktische Arbeit:
 
-* aktuelles RHEL
-* aktuelles openSuSE
-* aktuelles Fedora (Wayland)
-* aktuelles Devuan
-* aktuelles Ubuntu (Gnome)
-* aktuelles Kubuntu (KDE)
-* aktuelles Xubuntu (XFCE)
-* Ubuntu 12.04.5 (upstart)
-* Ubuntu 10.04.4 (module-init-tools)
-* Fedora 15 (legacy GRUB)
-
-Die Distributionen für die Themenfelder Wayland, Gnome, KDE und XFCE sollten in der Desktopversion installiert werden. Die übrigen können in einer Minimal- bzw. Serverinstallation vorliegen werden.
+| Distribution | Themenfelder | Umfang |
+|:--|:--|:--|
+| aktuelles RHEL | rpm, yum | Minimal |
+| aktuelles openSuSE | zypper | Minimal |
+| aktuelles Fedora | dnf, Wayland | Desktop |
+| aktuelles Devuan | SysVinit | Minimal |
+| aktuelles Ubuntu | dpkg, apt, aptitude, dselect, Gnome | Desktop |
+| aktuelles Kubuntu | KDE | Desktop |
+| aktuelles Xubuntu | XFCE | Desktop |
+| Ubuntu 12.04.5 | upstart | Minimal |
+| Ubuntu 10.04.4 | module-init-tools | Minimal |
+| Fedora 15 | legacy GRUB | Minimal |
