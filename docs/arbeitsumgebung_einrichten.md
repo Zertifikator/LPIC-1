@@ -69,7 +69,7 @@ Die folgenden Tabellen sind soweit ausgedünnt, dass in der Spalte _Distribution
 * https://github.com/lucasdemarchi/kmod
 
 ### Zusammenfassung
-Nach logischer Verknüpfung aller relevanten Prüfungsthemen über die verfügbaren Distributionen _genügen_ folgende Distributionen für die praktische Arbeit:
+Nach Verknüpfung aller relevanten LPIC-1-Prüfungsthemen mit den Standardwerkzeugen der verfügbaren Distributionen _genügen_ folgende Distributionen für die praktische Arbeit:
 
 | Distribution | Themenfelder | Umfang |
 |:--|:--|:--|
