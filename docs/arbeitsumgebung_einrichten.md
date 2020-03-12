@@ -26,34 +26,49 @@ Die wichtigsten zwei aktuell angewandten Techniken sind die Virtualisierung mit 
 
 Der LPIC-1 Schüler sollte sich im Idealfall auf allen Distributionen zu Hause fühlen. Setze ihn an einen Debian-Rechner oder an einen SuSE-Rechner - er wird immer das richtige tun ;) Doch welche Distributionen soll er installieren? - es gibt doch tausende! Außerdem ist es wohl eher kontraproduktiv, mehrere Distributionen eines Haupstranges zu installieren, wenn das für die praktische Arbeit keinen praktischen Nutzen mit sich bringt. Eine grundlegende Frage muss für die richtige Auswahl vor der Installation aller Distributionen beantwortet werden: Welche (minimale) Auswahl deckt alle Themen des LPIC-1 ab?
 
-### Themenfeld des LPIC-1 und entsprechende Distributionen
+### Themenfelder des LPIC-1 und entsprechende Distributionen
 
-#### Paketverwaltung
+Die folgenden Tabellen sind soweit ausgedünnt, dass in der Spalte _Distribution_ nur noch jene aufgeführt sind, die die maximale Anzahl an Themenfeldern abdecken. Distributionsnamen ohne Versionsnummer bezeichnen die jeweils aktuelle Version.
 
-| Paketverwaltungstools | Distribution |
-|--|--|
-| rpm      | openSuSE |
+#### Prüfungsrelevante Paketverwaltungstools
+
+| Paketverwaltungstool | Distribution |
+|:--|:--|
+| dpkg     | Ubuntu |
+| apt      | Ubuntu |
+| aptitude | Ubuntu |
+| dselect  | Ubuntu |
+| rpm      | RHEL |
+| yum      | RHEL |
 | zypper   | openSuSE |
-| dpkg     | Debian |
-| apt      | Debian |
-| aptitude | Debian |
-| pacman   | Arch |
+| dnf      | Fedora |
 
-#### Init-System
+#### Prüfungsrelevante Init-Systeme
 
 | Init-System | Distribution |
-|--|--|
+|:--|:--|
 | SysVinit | Devuan |
 | upstart  | Ubuntu 12.04.5 |
 | systemd  | Praktisch alle aktuellen Distributionen |
 
-#### Bootmananger
+#### Prüfungsrelevante Bootmananger
 
 | Bootmanager | Distribution |
-|--|--|
-| GRUB 0.97 | Ubuntu 18.04.3 Mini mit GRUB2 Downgrade |
+|:--|:--|
+| GRUB 0.97 | Ubuntu 18.04.3 mit GRUB2 Downgrade auf 0.97 |
 | GRUB 2 | Praktisch alle aktuellen Distributionen |
 
-#### Desktop-Umgebung
+#### Prüfungsrelevante Komponenten grafikbasierter Desktops
 
-#### modprobe alt???
+| Komponente |  Distribution |
+|:--|:--|
+| Xorg/X11 | Praktisch alle aktuellen Distributionen |
+| Wayland  | seit Debian 10, Fedora 25 |
+| KWin/KDM/KDE | Kubuntu |
+| Metacity/GDM/Gnome | Ubuntu |
+| XFWM/XFCE | Xubuntu |
+
+#### module-init-tools vs. kmod
+* https://github.com/vadmium/module-init-tools
+* https://github.com/lucasdemarchi/kmod
+
