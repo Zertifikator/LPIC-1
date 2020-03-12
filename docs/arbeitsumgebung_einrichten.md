@@ -3,7 +3,7 @@ In der Lernphase zu den Prüfungen des LPIC-1 ist anzuraten, die Theorie auch in
 So bekommt der Aspirant eine Vorstellung davon, was terminalbasiertes Arbeiten an einem Linux-System bedeutet.
 
 ## Werkzeuge
-Die eszenziellen Werkzeuge für den Praxisteil sind:
+Die essenziellen Werkzeuge für den Praxisteil sind:
 
 * Rechner mit Internetzugang
 * Linux-Distribution passend zum jeweiligen Thema
