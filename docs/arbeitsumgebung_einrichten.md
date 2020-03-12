@@ -13,7 +13,7 @@ Die essenziellen Werkzeuge für den Praxisteil sind:
 ## Hardware vs. Virtual
 Der Idealfall wäre wahrscheinlich, wenn für jede zu nutzende Distribution ein eigener Rechner samt Bilschirm und Tastatur vorhanden wäre. Der Schüler könnte sich je nach Bedarf an einen anderen Rechner setzen und dort distributionsabhängige Dinge tun.
 
-Natürlich können auch mehrere Distributionen auf einem Rechner koexistieren. Heutige Bootmanager sind dafür geradezu prädestiniert. Der Nachteil liegt darin, dass die intensive Arbeit am Bootsystem zu den grundlegen Fähigkeiten eines LPIC-1 Administrators zählt und damit ein lebendes Multibootsystem für praktische Experimente am Selbigen eher ungeeignet wäre.
+Natürlich können auch mehrere Distributionen auf einem Rechner koexistieren. Heutige Bootmanager sind dafür geradezu prädestiniert. Der Nachteil liegt darin, dass die intensives Arbeiten am Bootsystem zu den grundlegenden Fähigkeiten eines LPIC-1 Administrators zählt und damit ein produktives Multibootsystem für praktische Experimente am Selbigen eher ungeeignet wäre.
 
 Betrachten wir die dritte Möglichkeit, die Virtualisierung des Betriebssystems.
 
@@ -73,13 +73,13 @@ Nach Verknüpfung aller relevanten LPIC-1-Prüfungsthemen mit den Standardwerkze
 
 | Distribution | Themenfelder | Umfang |
 |:--|:--|:--|
-| aktuelles RHEL | rpm, yum | Minimal |
-| aktuelles openSuSE | zypper | Minimal |
-| aktuelles Fedora | dnf, Wayland | Desktop |
-| aktuelles Devuan | SysVinit | Minimal |
-| aktuelles Ubuntu | dpkg, apt, aptitude, dselect, Gnome | Desktop |
-| aktuelles Kubuntu | KDE | Desktop |
-| aktuelles Xubuntu | XFCE | Desktop |
+| RHEL | rpm, yum | Minimal |
+| openSuSE | zypper | Minimal |
+| Fedora | dnf, Wayland | Desktop |
+| Devuan | SysVinit | Minimal |
+| Ubuntu | dpkg, apt, aptitude, dselect, Gnome | Desktop |
+| Kubuntu | KDE | Desktop |
+| Xubuntu | XFCE | Desktop |
 | Ubuntu 12.04.5 | upstart | Minimal |
 | Ubuntu 10.04.4 | module-init-tools | Minimal |
 | Fedora 15 | legacy GRUB | Minimal |
