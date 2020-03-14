@@ -24,7 +24,6 @@ Betrachten wir die dritte Möglichkeit, die Virtualisierung des Betriebssystems.
 Die wichtigsten zwei aktuell angewandten Techniken sind die Virtualisierung mit Hypervisoren und mit Virtualisungskontainern (bspw. Docker). Beide bieten vorinstallierte Images von aktuellen Distributionen - das dürfte nicht das Entscheidungskriterium sein. Viel wichtiger ist, wie oben schon angedeutet, das der Lernende immer wieder schreibend auf das Bootsystem zugreifen muss und damit für den praktischen Teil eigentlich nur die __Virtualisierung durch einen Hypervisor angeraten__ werden kann.
 
 ## Auswirkungen von Hypervisoring auf die Hardwareplattform
-
 Durch die Nutzung eines Hypervisors auf der Hardware der Lernplattform ergeben sich geringfügig veränderte Vorgaben was die Leistungsfähigkeiten betrifft. Das trifft vorrangig für die benötigten Desktop-Betriebssysteme zu, die für den Inhaltsteil "Desktopumgebungen" genutzt werden sollen. Die wichtigsten Parameter seien hier angeführt:
 
 * Mehrkernprozessor, der mindestens einen Kern an den Gast abtreten kann.
@@ -33,7 +32,6 @@ Durch die Nutzung eines Hypervisors auf der Hardware der Lernplattform ergeben s
 ## Distributionsauswahl
 
 ### Welche Distributionen sind für LPIC-1 sinnvoll?
-
 Der LPIC-1 Schüler sollte sich im Idealfall auf allen Distributionen der Welt zu Hause fühlen. Setze ihn an einen Debian-Rechner oder an einen SuSE-Rechner - er wird immer das richtige tun ;) Doch welche Distributionen soll er installieren? - es gibt doch tausende! Außerdem ist es wohl eher kontraproduktiv, mehrere Distributionen eines Haupstranges zu installieren, wenn das für die praktische Arbeit keinen differntiellen Nutzen mit sich bringt. Eine grundlegende Frage muss für die richtige Auswahl vor der Installation der Lern-Distributionen beantwortet werden: Welche (minimale) Auswahl deckt alle Themen des LPIC-1 ab?
 
 ### Themenfelder des LPIC-1 und entsprechende Distributionen
@@ -104,13 +102,11 @@ Anmerkung: ein echtes Debian fehlt in dieser Auflistung, weil die Paarung _Wayla
 Die oben aufgeführten Distributionen werden nun auf dem Lern-Rechner installiert. Als Hypervisor kommt VirtualBox zum Einsatz.
 
 ### Grundeinstellungen in VirtualBox
-
 Zunächst sollte für alle zehn Installationen genügend Speicherplatz auf einer Partition vorhanden sein. 128 GB müssten für den Anfang reichen. Dazu wird unter _Datei -> Einstellungen -> Allgemein_ der voreingestellte Pfad für die VM's auf eine genügend große Partition verändert. Wenn die eingetragene Originalpartition groß genug sein sollte, spricht natürlich auch nichts gegen deren Verwendung.
 
 Erweiterte Funktionalitäten des Virtuellen Hostsystems werden über sogenannte _VM VirtualBox Extension Pack's_ ermöglicht. Diese ändern sich mit jedem Update von Virtual Box und können direkt aus Firefox heraus in Virtual Box installiert werden.
 
 ### Konfiguration des DHCP-Servers im lokalen Netzwerk
-
 Damit alle virtuellen Maschinen unter der gleichen IP im Netzwerk erreichbar sind, sollte der lokale DHCP-Server so konfiguriert werden, dass der Netzwerkadapter mit der __MAC-Adresse 08:00:00:00:00:00__ immer die gleiche IP erhält.
 
 ### Grundeinstellungen jeder Virtuellen Maschine
@@ -136,7 +132,7 @@ In der neu erstellten VM:
       * 1 Stück bei CLI-System
       * 2 Stück bei GUI-System
 
-Nach Abschluß aller Einstellungen wird sogleich ein Schnappschuss erstellt.
+Nach Abschluß aller Einstellungen wird ein initialer Schnappschuss ('INIT') erstellt.
 
 Wiederkehrende Eingaben während der Installation des Betriebssystems:
 * Hauptbenutzer = foo
