@@ -31,6 +31,9 @@ Durch die Nutzung eines Hypervisors auf der Hardware der Lernplattform ergeben s
 * Mindestens 1GB RAM (besser 2GB) die dem Gast zur Verfügung gestellt werden können (das bedeutet 4GB RAM insgesamt auf dem Rechner, besser 8GB)
 
 ## Distributionsauswahl
+
+### Welche Distributionen sind für LPIC-1 sinnvoll?
+
 Der LPIC-1 Schüler sollte sich im Idealfall auf allen Distributionen der Welt zu Hause fühlen. Setze ihn an einen Debian-Rechner oder an einen SuSE-Rechner - er wird immer das richtige tun ;) Doch welche Distributionen soll er installieren? - es gibt doch tausende! Außerdem ist es wohl eher kontraproduktiv, mehrere Distributionen eines Haupstranges zu installieren, wenn das für die praktische Arbeit keinen differntiellen Nutzen mit sich bringt. Eine grundlegende Frage muss für die richtige Auswahl vor der Installation der Lern-Distributionen beantwortet werden: Welche (minimale) Auswahl deckt alle Themen des LPIC-1 ab?
 
 ### Themenfelder des LPIC-1 und entsprechende Distributionen
