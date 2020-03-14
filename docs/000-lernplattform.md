@@ -96,3 +96,69 @@ Nach Verknüpfung aller relevanten LPIC-1-Prüfungsthemen mit den Standardwerkze
 | Fedora 15 | legacy GRUB | CLI | https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/15/Fedora/x86_64/iso/ |
 
 Anmerkung: ein echtes Debian fehlt in dieser Auflistung, weil die Paarung _Wayland/Gnome_ bereits durch Fedora abgedeckt ist und ein echtes Xorg/Gnome _noch_ durch ein aktuelles Ubunutu bereitgestellt wird. Sobald Wayland in aktuelle Ubuntus einfließt, wird diese Tabelle aktualisiert.
+
+## Vorbereitung von Virtual Box
+Die oben aufgeführten Distributionen werden nun auf dem Lern-Rechner installiert. Als Hypervisor kommt VirtualBox zum Einsatz.
+
+### Grundeinstellungen in VirtualBox
+
+Zunächst sollte für alle zehn Installationen genügend Speicherplatz auf einer Partition vorhanden sein. 128 GB müssten für den Anfang reichen. Dazu wird unter _Datei -> Einstellungen -> Allgemein_ der voreingestellte Pfad für die VM's auf eine genügend große Partition verändert. Wenn die eingetragene Originalpartition groß genug sein sollte, spricht natürlich auch nichts gegen deren Verwendung.
+
+Erweiterte Funktionalitäten des Virtuellen Hostsystems werden über sogenannte _VM VirtualBox Extension Pack's_ ermöglicht. Diese ändern sich mit jedem Update von Virtual Box und können direkt aus Firefox heraus in Virtual Box installiert werden.
+
+### Konfiguration des DHCP-Servers im lokalen Netzwerk
+
+Damit alle virtuellen Maschinen unter der gleichen IP im Netzwerk erreichbar sind, sollte der lokale DHCP-Server so konfiguriert werden, dass der Netzwerkadapter mit der __MAC-Adresse 08:00:00:00:00:00__ immer die gleiche IP erhält.
+
+### Grundeinstellungen jeder Virtuellen Maschine
+Folgende Einstellung sind grundsätzlich bei jeder neuen Virtuellen Maschine gleich. Deshalb werden sie hier gesondert aufgeführt. Auch Wichtig: sie sollten jeweils vor dem ersten Booten des Installationsmediums erfolgt sein.
+
+* Erstellen der VM mit __Maschine -> Neu__.
+* Name passend zum Betriebssystem.
+* Mindestens 1 GB RAM für CLI-Systeme, 2 GB für GUI-Systeme.
+* Festplatte erzeugen:
+    * Typ VDI
+    * dynamisch alloziiert
+    * 32 GB für CLI-Systeme
+    * 64 GB für GUI-Systeme
+
+In der neu erstellten VM:
+
+* __Maschine -> Ändern...__
+  * __-> Netzwerk__
+    * __Angeschlossen an__: Netzwerkbrücke
+    * __Erweitert -> MAC-Adresse__: 080000000000
+  * __-> System -> Prozessor__
+    * __Prozessoren__
+      * 1 Stück bei CLI-System
+      * 2 Stück bei GUI-System
+
+Nach Abschluß aller Einstellungen wird sogleich ein Schnappschuss erstellt.
+
+Wiederkehrende Eingaben während der Installation des Betriebssystems:
+* Hauptbenutzer = foo
+* Kennwort immer gleich
+* wenn möglich, ssh aktivieren
+
+## Distributionen installieren
+In diesem Kapitel wird auf die Installation jeder Distribution individuell eingegangen.
+
+### CentOS
+
+### openSuSE
+
+### Fedora
+
+### Devuan
+
+### Ubuntu
+
+### Kubuntu
+
+### Xubuntu
+
+### Ubuntu 12.04.5
+
+### Ubuntu 10.04.4
+
+### Fedora 15
