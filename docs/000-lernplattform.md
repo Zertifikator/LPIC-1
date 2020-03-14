@@ -84,15 +84,15 @@ Nach Verknüpfung aller relevanten LPIC-1-Prüfungsthemen mit den Standardwerkze
 
 | Distribution | Themenfelder | Geschmack | Download-Link |
 |:--|:--|:--|:--|
-| CentOS | rpm, yum | Minimal/Server | |
-| openSuSE | zypper | Minimal/Server | |
-| Fedora | dnf, Wayland/Gnome | Desktop/Workstation | |
-| Devuan | SysVinit | Minimal/Server | |
-| Ubuntu | dpkg, apt, aptitude, dselect, Xorg/Gnome | Desktop/Workstation | https://ubuntu.com/download |
-| Kubuntu | KDE | Desktop/Workstation | |
-| Xubuntu | XFCE | Desktop/Workstation | |
-| Ubuntu 12.04.5 | upstart | Minimal/Server | |
-| Ubuntu 10.04.4 | module-init-tools | Minimal/Server | |
-| Fedora 15 | legacy GRUB | Minimal/Server | |
+| CentOS | rpm, yum | CLI | https://wiki.centos.org/Download |
+| openSuSE | zypper | CLI | https://www.opensuse.org/ |
+| Fedora | dnf, Wayland/Gnome | GUI | https://getfedora.org/de/workstation/download/ |
+| Devuan | SysVinit | CLI | https://devuan.org/get-devuan |
+| Ubuntu | dpkg, apt, aptitude, dselect, Xorg/Gnome | GUI | https://ubuntu.com/download |
+| Kubuntu | KDE | GUI | https://kubuntu.org/getkubuntu/ |
+| Xubuntu | XFCE | GUI | https://xubuntu.org/download |
+| Ubuntu 12.04.5 | upstart | CLI | http://releases.ubuntu.com/12.04/ |
+| Ubuntu 10.04.4 | module-init-tools | CLI | http://old-releases.ubuntu.com/releases/10.04.0/ |
+| Fedora 15 | legacy GRUB | CLI | https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/15/Fedora/x86_64/iso/ |
 
 Anmerkung: ein echtes Debian fehlt in dieser Auflistung, weil die Paarung _Wayland/Gnome_ bereits durch Fedora abgedeckt ist und ein echtes Xorg/Gnome _noch_ durch ein aktuelles Ubunutu bereitgestellt wird. Sobald Wayland in aktuelle Ubuntus einfließt, wird diese Tabelle aktualisiert.
