@@ -43,8 +43,8 @@ Die folgenden Tabellen sind soweit ausgedünnt, dass in der Spalte _Distribution
 | apt      | Ubuntu |
 | aptitude | Ubuntu |
 | dselect  | Ubuntu |
-| rpm      | RHEL |
-| yum      | RHEL |
+| rpm      | CentOS |
+| yum      | CentOS |
 | zypper   | openSuSE |
 | dnf      | Fedora |
 
@@ -84,15 +84,15 @@ Nach Verknüpfung aller relevanten LPIC-1-Prüfungsthemen mit den Standardwerkze
 
 | Distribution | Themenfelder | Geschmack | Download-Link |
 |:--|:--|:--|:--|
-| RHEL | rpm, yum | Minimal/Server | |
+| CentOS | rpm, yum | Minimal/Server | |
 | openSuSE | zypper | Minimal/Server | |
 | Fedora | dnf, Wayland/Gnome | Desktop/Workstation | |
 | Devuan | SysVinit | Minimal/Server | |
-| Ubuntu | dpkg, apt, aptitude, dselect, Xorg/Gnome | Desktop/Workstation | |
+| Ubuntu | dpkg, apt, aptitude, dselect, Xorg/Gnome | Desktop/Workstation | https://ubuntu.com/download |
 | Kubuntu | KDE | Desktop/Workstation | |
 | Xubuntu | XFCE | Desktop/Workstation | |
 | Ubuntu 12.04.5 | upstart | Minimal/Server | |
 | Ubuntu 10.04.4 | module-init-tools | Minimal/Server | |
 | Fedora 15 | legacy GRUB | Minimal/Server | |
 
-Anmerkung: ein echtes Debian fehlt in dieser Auflistung, weil die Paarung _Wayland/Gnome_ bereits durch Fedora abgedeckt ist und ein echtes Xorg/Gnome _noch_ durch ein aktuelles Ubunutu bereitgestellt wird. Sobald Wayland auch in Ubuntu einfließt, wird auch diese Tabelle aktualisiert.
+Anmerkung: ein echtes Debian fehlt in dieser Auflistung, weil die Paarung _Wayland/Gnome_ bereits durch Fedora abgedeckt ist und ein echtes Xorg/Gnome _noch_ durch ein aktuelles Ubunutu bereitgestellt wird. Sobald Wayland in aktuelle Ubuntus einfließt, wird diese Tabelle aktualisiert.
