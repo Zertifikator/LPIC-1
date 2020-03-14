@@ -82,8 +82,8 @@ Die folgenden Tabellen sind soweit ausgedünnt, dass in der Spalte _Distribution
 ### Zusammenfassung der Lern-Distributionen
 Nach Verknüpfung aller relevanten LPIC-1-Prüfungsthemen mit den Standardwerkzeugen der verfügbaren Distributionen _genügen_ folgende Distributionen für die praktische Arbeit:
 
-| Distribution | Themenfelder | Geschmack | Download-Link |
-|:--|:--|:--|:--|
+| Distribution | Themenfelder | Interface | Download-Link |
+|:--|:--|:--:|:--|
 | CentOS | rpm, yum | CLI | https://wiki.centos.org/Download |
 | openSuSE | zypper | CLI | https://www.opensuse.org/ |
 | Fedora | dnf, Wayland/Gnome | GUI | https://getfedora.org/de/workstation/download/ |
