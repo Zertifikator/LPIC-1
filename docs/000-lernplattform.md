@@ -1,4 +1,4 @@
-# Lokale Lernplattform - Arbeitsumgebung für den praktischen Teil
+# Lernplattform den praktischen Teil
 In der Lernphase zu den Prüfungen des LPIC-1 ist anzuraten, die Theorie auch in Praxis umzusetzen.
 So bekommt der Aspirant eine Vorstellung davon, was terminalbasiertes Arbeiten an einem Linux-System bedeutet.
 Dieses Dokument beschreibt die dafür notwendigen Werkzeuge und auch die grundlegende Einrichtung der selbigen.
